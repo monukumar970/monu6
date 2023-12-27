@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('image.jpg');
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color:transparent;
+            border: 1px solid #5f6098;
+            backdrop-filter: blur(500px);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(2, 2, 2, 2.2);
+            max-width: 500px;
+            width: 150%;
+            text-align: center;
+            background-image: url('imge.jpg');
+            background-size: 500px;
+            
+        }
+
+        .login-container h2 {
+            margin-bottom: 70px;
+        }
+
+        .form-group {
+            margin-bottom: 40px;
+        }
+
+        .form-group label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #f7f9ff43;
+            border-radius: 3px;
+        }
+
+        
+        input[type="submit"] {
+            background-color: #047ef8;
+            color: #d40d0d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #e9ecf0;
+        }
+        .login-containerp{
+            background-image: url('imge.jpg');
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="id">Enter ID</label>
+                <input type="text" id="id" name="id" placeholder="Enter your ID">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your Passsword">
+            </div>
+        </form>
+        <a href="onlineweb.html"><button>login</button></a>
+        <h4>New user?   <a href="regester.html"><button>Register</button></a> </h4>
+    </div>
+</body>
+</html>

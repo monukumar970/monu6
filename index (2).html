@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('image.jpg');
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #02757384;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(1, 1, 1, 1.2);
+            text-align: center;
+            background-image: url('imge.jpg');
+            background-size:470px ;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ec0a0a;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Register The Page</h2>
+        <form action="process-address.php" method="post">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="Enter ID">Enter ID</label>
+            <input type="text" id="ID" name="ID" required>
+
+            <label for="phone number">Phone Number</label>
+            <input type="text" id="phone number" name="phone number" required>
+
+            <label for="city">Gmail</label>
+            <input type="text" id="Gmail" name="Gmail" required>
+
+            <label for="state">password</label>
+            <input type="text" id="password" name="password" required>
+
+            <label for="zip">Re Enter Password</label>
+            <input type="number" id="Re Enter password" name="Re Enter Password" required>
+
+            </select>
+
+        </form>
+        <a href="login.html"><button>Sumit</button></a>
+    </div>
+</body>
+</html>
